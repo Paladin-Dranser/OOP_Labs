@@ -10,15 +10,15 @@ class Person
 {
 	public:
 		Person(const Date & birthday, string first_name, string last_name);
-		virtual void show() const;
+		void show() const;
 
-		virtual Date getBirthDay() const;
-		virtual string getFirstName() const;
-		virtual string getLastName() const;
+		Date getBirthDay() const;
+		string getFirstName() const;
+		string getLastName() const;
 
-		virtual void setBirthDay(Date date);
-		virtual void setFirstName(string fname);
-		virtual void setLastName(string lname);
+		void setBirthDay(Date date);
+		void setFirstName(string fname);
+		void setLastName(string lname);
 	private:
 		Date birthday;
 		string first_name;
