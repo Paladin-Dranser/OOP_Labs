@@ -15,7 +15,7 @@
 int main()
 {
 	double x;
-	std::cout << "Etner 'x': ";
+	std::cout << "Enter 'x': ";
 	std::cin >> x;
 
 	double y;
