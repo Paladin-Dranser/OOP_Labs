@@ -5,12 +5,12 @@ class Date
 {
 	public:
 		Date();
-		Date(unsigned d, unsigned m, unsigned int y);
+		Date(unsigned d, unsigned m, unsigned y);
 		void show() const;
 	private:
 		unsigned day;
 		unsigned month;
-		unsigned int year;
+		unsigned year;
 };
 
 #endif

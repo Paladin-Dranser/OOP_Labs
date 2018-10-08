@@ -5,7 +5,7 @@ Date::Date() : day(1), month(1), year(1)
 {
 }
 
-Date::Date(unsigned d, unsigned m, unsigned int y) : day(d), month(m), year(y)
+Date::Date(unsigned d, unsigned m, unsigned y) : day(d), month(m), year(y)
 {
 }
 
