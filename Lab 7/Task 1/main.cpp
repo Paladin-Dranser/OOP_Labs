@@ -28,7 +28,7 @@ int main()
 	std::list<long> l2 = { 7, 5, 16, 8};
 	
 	auto range_begin = l1.begin();
-	auto range_end = l1.end();
+	auto range_end = l1.begin();
 	std::advance(range_begin, 2);
 	std::advance(range_end, 5);
 	
