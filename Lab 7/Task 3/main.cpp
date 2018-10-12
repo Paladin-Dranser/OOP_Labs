@@ -49,8 +49,10 @@ int main()
 	{
 		it = std::find_if( it, l1.end(), foo);
 		if (it != l1.end())
+		{
 			l2.push_back(*it);	
-		++it;
+			++it;
+		}
 	}
 
 	display(l2);
